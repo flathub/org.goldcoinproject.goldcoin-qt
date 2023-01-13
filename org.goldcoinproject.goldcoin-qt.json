@@ -26,8 +26,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/goldcoin/goldcoin/releases/download/v0.14.9/goldcoin-0.14.9-x86_64-linux-gnu.tar.gz",
-          "sha256": "95589d1bce854104d7343a0bd78932278c6df5ed91e29b9daf73b8192fcc8f42"
+          "url": "https://github.com/goldcoin/goldcoin/releases/download/v0.14.9.5/goldcoin-0.14.9.5-x86_64-linux-gnu.tar.gz",
+          "sha256": "61331ebc2780229e4df94f2ca75da9ce51614b2d1022638f8895a34d713432de"
         }
       ]
     },
