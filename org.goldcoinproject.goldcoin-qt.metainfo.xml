@@ -16,12 +16,13 @@
       <image>https://raw.githubusercontent.com/expatjedi/flatpak-data/main/wallets_splash.png</image>
     </screenshot>
   </screenshots>
-  <url type="bugtracker">https://github.com/expatjedi/org.goldcoin.goldcoin-qt/issues/new?title=[flatpak]</url>
+  <url type="bugtracker">https://github.com/flathub/org.goldcoinproject.goldcoin-qt/issues/issues/new?title=[flatpak]</url>
   <url type="homepage">https://www.goldcoinproject.org/</url>
   <developer_name>Goldcoin Developers</developer_name>
   <update_contact>kbicer@proton.me</update_contact>
   <content_rating type="oars-1.1" />
   <releases>
+    <release date="2023-01-14" version="0.14.9.5" />
     <release date="2022-11-16" version="0.14.9" />
     <release date="2021-07-16" version="0.14.8" />
     <release date="2021-02-12" version="0.14.7" />
