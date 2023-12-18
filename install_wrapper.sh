@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
-echo '#!/usr/bin/bash' > /app/bin/goldcoin-qt
-echo "exec /app/bin/internal/goldcoin-qt" '-datadir="${XDG_DATA_HOME}" "$@"' >> /app/bin/goldcoin-qt
-chmod 744 /app/bin/goldcoin-qt
+for b in goldcoin{d,-qt,-cli,-tx}
+do
+  echo '#!/usr/bin/bash' > /app/bin/$b
+  echo "exec /app/bin/internal/$b" '-datadir="${XDG_DATA_HOME}" "$@"' >> /app/bin/$b
+  chmod 744 /app/bin/$b
+done
