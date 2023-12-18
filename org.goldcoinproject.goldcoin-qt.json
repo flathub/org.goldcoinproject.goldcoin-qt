@@ -21,7 +21,10 @@
       "name": "goldcoin",
       "buildsystem": "simple",
       "build-commands": [
-        "install -m 0744 -D -t /app/bin/internal bin/goldcoin-qt"
+        "install -m 0744 -D -t /app/bin/internal bin/goldcoind",
+        "install -m 0744 -D -t /app/bin/internal bin/goldcoin-qt",
+        "install -m 0744 -D -t /app/bin/internal bin/goldcoin-cli",
+        "install -m 0744 -D -t /app/bin/internal bin/goldcoin-tx"
       ],
       "sources": [
         {
