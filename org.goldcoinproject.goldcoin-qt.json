@@ -2,7 +2,7 @@
   "id": "org.goldcoinproject.goldcoin-qt",
   "runtime": "org.freedesktop.Platform",
   "sdk": "org.freedesktop.Sdk",
-  "runtime-version": "22.08",
+  "runtime-version": "25.08",
   "command": "goldcoin-qt",
   "finish-args": [
     /* Wayland and Xorg support */

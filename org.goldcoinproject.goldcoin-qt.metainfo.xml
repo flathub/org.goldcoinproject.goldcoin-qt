@@ -4,23 +4,31 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <name>Goldcoin</name>
-  <summary>Discover the Gold Standard of Digital Currency.</summary>
+  <summary>Discover the Gold Standard of Digital Currency</summary>
   <description>
     <p>
-      Goldcoin is the first Digital Gold. A super secure value store and cash payment system. Fully decentralized and distributed. Fast and Free. It's the Money for a New Generation. Nakamoto used the word Gold multiple times in his Bitcoin whitepaper to describe the inner workings of his original protocol. We've preserved it, improved it, and made it stronger and faster. Goldcoin (GLC) represents economic freedom to 8 billion people Worldwide.
+      Goldcoin is the first Digital Gold. A super secure value store and cash payment
+      system. Fully decentralized and distributed. Fast and Free. It's the Money for a
+      New Generation. Nakamoto used the word Gold multiple times in his Bitcoin
+      whitepaper to describe the inner workings of his original protocol. We've preserved
+      it, improved it, and made it stronger and faster. Goldcoin (GLC) represents economic
+      freedom to 8 billion people Worldwide.
     </p>
   </description>
   <launchable type="desktop-id">org.goldcoinproject.goldcoin-qt.desktop</launchable>
+  <url type="homepage">https://www.goldcoinproject.org</url>
+  <url type="bugtracker">https://github.com/goldcoin/goldcoin/issues/new?title=[flatpak]</url>
+  <url type="vcs-browser">https://github.com/goldcoin/goldcoin</url>
+  <developer id="org.goldcoinproject">
+    <name>Goldcoin Developers</name>
+  </developer>
+  <update_contact>kbicer@proton.me</update_contact>
+  <content_rating type="oars-1.1" />
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/expatjedi/flatpak-data/main/wallets_splash.png</image>
     </screenshot>
   </screenshots>
-  <url type="bugtracker">https://github.com/flathub/org.goldcoinproject.goldcoin-qt/issues/issues/new?title=[flatpak]</url>
-  <url type="homepage">https://www.goldcoinproject.org/</url>
-  <developer_name>Goldcoin Developers</developer_name>
-  <update_contact>kbicer@proton.me</update_contact>
-  <content_rating type="oars-1.1" />
   <releases>
     <release date="2023-08-20" version="0.15.0" />
     <release date="2023-01-14" version="0.14.9.5" />
